@@ -26,7 +26,7 @@ idxs        = idxBeg:subsamp:idxEnd;
 scatter(idxs./10,data(idxs)-0.8,'k','filled')
 grid on;
 %%
-clear all;close all;clc;
+clear all;clc;
 set(0,'defaultAxesFontSize',20)
 screensize = get(0,'ScreenSize');
 sz         = [500 350];
