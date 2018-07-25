@@ -10,7 +10,7 @@ xKeep       = x; % keep noise free signal
 % m    = 2*D+1; % theoretical minimum embedding dimension (m) requirement 
 m    = 3; % For illustration purposes -> to plot in 3D
 T    = 1; % Prediction time -> T=1 means predict the very next point in the time series
-Nf   = floor((sampleSize+1)*.4); % Size of the fitting set
+Nf   = floor((sampleSize+1)*.3); % Size of the fitting set
 Nt   = sampleSize-Nf+1; % Size of the testing set
 Ns   = 1; % Sampling rate -> Ns=1 uses all points in the time series
 iSet = Nf:Ns:Nf+Nt-T; % Index set of the testing set
